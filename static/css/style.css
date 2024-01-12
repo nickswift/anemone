@@ -273,7 +273,7 @@ textarea {
 }
 
 a.navItem {
-  padding-left: 1em;
+  padding: 0 0.5em 0 0.5em;
 }
 
 .themeButton {
