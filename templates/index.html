@@ -2,6 +2,7 @@
 {%- block content %}
 {{ section.content | safe }}
 {%- if config.extra.list_pages %}
+<h2>Blog Posts</h2>
 {%- if paginator %}
 {%- set pages = paginator.pages %}
 {%- else %}
